@@ -1,7 +1,7 @@
 package lc.linkedlist;
 
 public class RotateLinkedList {
-	public ListNode rotateRight(ListNode head, int k) {
+    public ListNode rotateRight(ListNode head, int k) {
         if(head == null || head.next == null || k == 0) return head;
         
         int total = 0;

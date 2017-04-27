@@ -1,7 +1,7 @@
 package lc.linkedlist;
 
 public class ReverseList2 {
-	public ListNode reverseBetween(ListNode head, int m, int n) {
+    public ListNode reverseBetween(ListNode head, int m, int n) {
         if(head == null || head.next == null) return head;
         
         ListNode dummy = new ListNode(0);

@@ -1,7 +1,7 @@
 package lc.linkedlist;
 
 public class MergeSortList {
-	public ListNode sortList(ListNode head) {
+    public ListNode sortList(ListNode head) {
         if(head == null || head.next == null) {
             return head;
         }
