@@ -1,4 +1,4 @@
-def add_two_numbers(node1, node2)
+def add_two_numbers(node1:, node2:)
     value, carry = 0, 0
     dummy_node = ListNode.new(0)
     iterator = dummy_node
