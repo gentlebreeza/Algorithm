@@ -3,7 +3,7 @@ def add_two_numbers(node1:, node2:)
     dummy_node = ListNode.new(0)
     iterator = dummy_node
 
-    while !!node1 || !!node2 || carry != 0
+    while node1 || node2 || carry != 0
         node1_value = node1_value.nil? ? 0 : node1.val
         node2_value = node2_value.nil? ? 0 : node2.val
         
