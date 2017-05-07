@@ -12,11 +12,8 @@ def merge(head1, head2)
         end
         iterator = iterator.next
     end
-    if head1
-        iterator.next = head1
-    else
-        iterator.next = head2
-    end
+
+    iterator.next = head1 ? head1 : head2
 
     dummy_head.next
 end
