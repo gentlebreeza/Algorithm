@@ -22,7 +22,7 @@ public class RemoveDuplicatesFromList {
         dummyHead.next = head;
 
         while(head != null && head.next != null) {
-            // check head.next != null for some cases liek [1,1,1]
+            // check head.next != null for some cases like [1,1,1]
             // keep removing duplicates
             while(head.next != null && head.val == head.next.val) {
                 head.next = head.next.next;
