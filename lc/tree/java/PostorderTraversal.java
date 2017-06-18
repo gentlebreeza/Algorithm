@@ -1,4 +1,4 @@
-package lc.tree;
+package lc.tree.java;
 
 import java.util.List;
 import java.util.ArrayList;

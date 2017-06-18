@@ -1,4 +1,4 @@
-package lc.tree;
+package lc.tree.java;
 
 public class ConstructBSTFromPreorderAndInorder {
 	public TreeNode buildTree(int[] preorder, int[] inorder) {

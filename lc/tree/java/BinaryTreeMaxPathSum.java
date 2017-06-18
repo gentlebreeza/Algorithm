@@ -1,4 +1,4 @@
-package lc.tree;
+package lc.tree.java;
 
 public class BinaryTreeMaxPathSum {
 	public int maxPathSum(TreeNode root) {
